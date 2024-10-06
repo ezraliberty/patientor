@@ -1,1 +1,5 @@
-export type Diagnosis = "code" | "name" | "latin";
+export interface Diagnosis {
+  code: string;
+  name: string;
+  latin?: string;
+}
